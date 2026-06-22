@@ -1,47 +1,47 @@
-# 📈 Otimização de Marketing - Y.Afisha (LTV, CAC e ROI)
+# 📈 Marketing Optimization - Y.Afisha (LTV, CAC, and ROI)
 
-## 📋 Sobre o Projeto
-Este projeto consiste na análise de dados da **Y.Afisha**, uma empresa fictícia, com o objetivo de otimizar os investimentos em marketing. O foco principal foi analisar os logs do servidor e o histórico de pedidos para entender o comportamento do usuário e a rentabilidade das campanhas publicitárias.
+## 📋 About the Project
+This project consists of data analysis for **Y.Afisha**, a fictitious company, aiming to optimize marketing investments. The main focus was analyzing server logs and order history to understand user behavior and the profitability of advertising campaigns.
 
-O desafio era responder à pergunta crucial: **"Os investimentos em marketing estão valendo a pena?"**
+The challenge was to answer the crucial question: **"Are the marketing investments paying off?"**
 
-## 🎯 Objetivos de Negócio
-A diretoria precisava entender a eficiência de cada canal de aquisição. Para isso, o projeto focou em:
-* Calcular métricas de produto (**DAU, WAU, MAU** e Sticky Factor).
-* Analisar o funil de vendas e tempo de conversão.
-* Calcular o **LTV (Lifetime Value)** por coortes.
-* Calcular o **CAC (Custo de Aquisição de Cliente)** por origem.
-* Determinar o **ROI (Retorno sobre Investimento)** para indicar onde alocar a verba.
+## 🎯 Business Objectives
+The board needed to understand the efficiency of each acquisition channel. Therefore, the project focused on:
+* Calculating product metrics (**DAU, WAU, MAU**, and Sticky Factor).
+* Analyzing the sales funnel and conversion time.
+* Calculating the **LTV (Lifetime Value)** by cohorts.
+* Calculating the **CAC (Customer Acquisition Cost)** by source.
+* Determining the **ROI (Return on Investment)** to indicate where to allocate the budget.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 * **Python 3**
-* **Pandas & Numpy:** Manipulação e limpeza de dados.
-* **Matplotlib & Seaborn:** Visualização de dados (Heatmaps, Gráficos de Barras).
-* **Jupyter Notebook:** Ambiente de desenvolvimento.
+* **Pandas & Numpy:** Data manipulation and cleaning.
+* **Matplotlib & Seaborn:** Data visualization (Heatmaps, Bar Charts).
+* **Jupyter Notebook:** Development environment.
 
-## 📊 Principais Descobertas (Insights)
+## 📊 Key Findings (Insights)
 
-### 1. Análise de Dispositivos 📱 vs 💻
-Identificamos que, embora os dispositivos móveis (**Touch**) gerem um volume alto de visitas, a conversão real acontece majoritariamente no **Desktop**.
-* **Ação:** Manter campanhas mobile para awareness, mas focar a conversão no Desktop.
+### 1. Device Analysis 📱 vs 💻
+We identified that although mobile devices (**Touch**) generate a high volume of visits, the actual conversion mostly happens on **Desktop**.
+* **Action:** Maintain mobile campaigns for awareness, but focus conversion on Desktop.
 
-### 2. A "Armadilha" do Canal 3 📉
-O **Canal (Source) 3** recebia a maior parte do orçamento de marketing. No entanto, a análise de ROI revelou que ele é ineficiente: possui um CAC alto e traz clientes com LTV baixo.
-* **Impacto:** Prejuízo operacional neste canal.
+### 2. The Source 3 "Trap" 📉
+**Source 3** received the majority of the marketing budget. However, the ROI analysis revealed it is inefficient: it has a high CAC and brings in customers with a low LTV.
+* **Impact:** Operational loss on this source.
 
-### 3. As Oportunidades (Canais 1 e 2) 🚀
-* **Source 1:** Apresentou o melhor ROI geral. É o canal "Estrela".
-* **Source 2:** Embora tenha um custo de aquisição (CAC) alto, ele traz clientes "Premium" que gastam muito mais ao longo do tempo, justificando o investimento.
+### 3. The Opportunities (Sources 1 and 2) 🚀
+* **Source 1:** Showed the best overall ROI. It is the "Star" source.
+* **Source 2:** Although it has a high customer acquisition cost (CAC), it brings "Premium" customers who spend much more over time, justifying the investment.
 
-## 💡 Conclusão e Recomendação Estratégica
-Com base na análise de dados, a recomendação final para a equipe de marketing é realizar uma **realocação de orçamento**:
+## 💡 Conclusion and Strategic Recommendation
+Based on the data analysis, the final recommendation for the marketing team is to execute a **budget reallocation**:
 
-1.  **Cortar** imediatamente o investimento no **Source 3** (ineficiente).
-2.  **Reinvestir** a verba economizada nos **Sources 1 e 2**, que provaram ser lucrativos.
-3.  Monitorar os **Sources 5, 9 e 10**, que apresentam baixo custo e potencial de escala.
+1.  Immediately **cut** investment in **Source 3** (inefficient).
+2.  **Reinvest** the saved budget into **Sources 1 and 2**, which proved to be profitable.
+3.  Monitor **Sources 5, 9, and 10**, which show low cost and scaling potential.
 
-> *"A estratégia sugerida é parar de 'comprar visitas caras' no Canal 3 e passar a 'investir em clientes lucrativos' nos Canais 1 e 2."*
+> *"The suggested strategy is to stop 'buying expensive visits' on Source 3 and start 'investing in profitable customers' on Sources 1 and 2."*
 
 ---
-**Autor:** Marco
-[Meu LinkedIn](https://www.linkedin.com/in/marcositta) | [Meu E-mail](mailto:msitta@gmail.com)
+**Author:** Marco
+[My LinkedIn](https://www.linkedin.com/in/marcositta) | [My E-mail](mailto:msitta@gmail.com)
